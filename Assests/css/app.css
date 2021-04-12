@@ -1,0 +1,184 @@
+/* ================================================
+   General
+   ================================================ */
+
+   * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    font-size: 14px;
+}
+
+
+/* ================================================
+   Navbar
+   ================================================ */
+
+.navbar {
+    width: 100%;
+    padding: .5rem;
+}   
+
+.nav-fill {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin: 0 .5rem;
+}
+
+
+/* ================================================
+   Images
+   ================================================ */
+
+.googleapps {
+    width: 24px;
+}   
+
+.dp {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: .3rem;
+}
+
+.logo {
+    width: 260px;
+}
+
+.bon {
+    width: 12px;
+}
+
+
+/* ================================================
+   Content
+   ================================================ */
+
+.main-logo {
+    text-align: center;
+    margin-top: 186px;
+}   
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    margin-top: 1rem;
+    position: relative;
+}
+
+.form-rounded {
+    border-radius: 32px;
+    height: 44px;
+}
+
+input {
+    width: 600px;
+    border: 1px solid #E5E6E9;
+    outline: none;
+    padding: 1.5rem;
+}
+
+input [type = "text"] {
+    width: 400px;
+}
+
+.shadow:hover {
+    box-shadow: 0 2px 2px rgb(231, 229, 229);
+}
+
+.tabs {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.btn {
+    background-color: #F8F9FA;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 .2rem;
+}
+
+.btn:hover {
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(231, 229, 229);
+}
+
+.p-text {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.p-text a {
+    padding: 0 .3rem;
+}
+
+.p-text a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* ================================================
+   Footer
+   ================================================ */
+
+.fixed-bottom {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #F2F2F2;
+}
+
+.container {
+    padding: 1rem;
+    border-bottom: 1px solid #E5E6E9;
+}
+
+.nig {
+    margin-left: 1.5rem;
+}
+
+.nig, .carbon {
+    color: #6F6F6F;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.bottom-nav {
+    display: flex;
+    margin: .2rem 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.bottom-nav a {
+    margin: .2rem .5rem;
+    color: #6F6F6F;
+}
+
+.bottom-nav a:hover {
+    text-decoration: underline;
+}
+
+.carbon:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
